@@ -54,6 +54,9 @@ var $notificationOnRedirect = 'Thanks for signing up! Click the download button 
   // adding tooltip to email input
   $( ".edd_purchase_submit_wrapper" ).after('<div class="eddRedirectTooltip"><span class="eddRedirectTooltipText">'+$notificationOnRedirect+'</span></div>');
 
+ // adding tooltip to email input if user is not bought it
+  $( ".edd-free-downloads-direct-download-link" ).after('<div class="eddRedirectTooltip"><span class="eddRedirectTooltipText">'+$notificationOnRedirect+'</span></div>');
+ 
 }
 
   });
