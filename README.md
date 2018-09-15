@@ -8,4 +8,4 @@ Add eddLoginRegisterRedirectBack ID to your register page link.
 < /a >
 
 
-Add custom_shortcodes.php to your functions.php as incluede. And add js to be loaded on your file after jquery library is loaded.
+Add custom_shortcodes.php to your functions.php as include. And add js to be loaded on your file after jquery library is loaded.
